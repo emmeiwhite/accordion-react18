@@ -6,7 +6,7 @@ const App = () => {
   return (
     <main>
       {/* <Accordion /> This was a question implementation */}
-      <QuestionsList />
+      <QuestionsList questions={data} />
     </main>
   )
 }
